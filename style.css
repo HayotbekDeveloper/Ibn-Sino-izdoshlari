@@ -1,0 +1,814 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+/* Universal_codes */
+
+.mt-90{
+    margin-top: 90px;
+}
+
+.mb-20{
+    margin-bottom: 20px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+h2 , ul{
+    margin-bottom: 0;
+}
+
+ul{
+    padding-left: 0;
+}
+
+img,
+video,
+svg {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+h2.title ,
+h2.sm_title{
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 72px;
+    color: rgba(0, 0, 0, 1);
+}
+
+/* header_starting */
+header{
+    width: 100%;
+    padding-top: 58px;
+}
+
+header .navbar{
+    padding-top: 0;
+    padding-bottom: 0;
+    flex-grow: 3;
+}
+
+header .navbar .navbar-brand{
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-right: 0;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 54px;
+    color: rgba(0, 0, 0, 1);
+}
+
+header .navbar .navbar-collapse{
+    flex-grow: 0;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
+    margin-right: 25px;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-link ,
+header .navbar .navbar-collapse .navbar-nav .nav-link1{
+    padding-left: 0;
+    padding-right: 0;
+    padding: 0px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(147, 147, 147, 1);
+    transition: .5s;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-link1{
+    display: none;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-link:last-of-type{
+    margin-right: 0;
+}
+
+header .navbar .navbar-collapse .navbar-nav .nav-link:hover ,
+header .navbar .navbar-collapse .navbar-nav .nav-link1:hover{
+    color: rgba(38, 50, 56, 1);
+}
+
+header .navbar .navbar-collapse button{
+    padding: 5px 10px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(0, 0, 0, 1);
+    background-color: unset;
+    border: 2px solid rgba(38, 50, 56, 1);
+    border-radius: 5px;
+}
+
+header .navbar .navbar-toggler{
+    padding: 0px;
+}
+
+header .navbar .navbar-toggler:focus{
+    box-shadow: unset;
+}
+
+header .navbar .navbar-toggler span{
+    font-size: 25px;
+}
+
+header .header_title{
+    margin-top: 115px;
+}
+
+header .header_title h1{
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 80px;
+    color: rgba(0, 0, 0, 1);
+    margin-bottom: 40px;
+}
+
+header .header_title p{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(143, 149, 165, 1);
+    margin-bottom: 60px;
+}
+
+header .header_title a{
+    padding: 10px 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 40px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 50, 56, 1);
+    border-radius: 15px;
+}
+
+/* main_starting */
+
+.sm{
+    display: none;
+}
+
+main{
+    width: 100%;
+    margin-top: 80px;
+    text-align: center;
+}
+
+main .main_box{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    padding: 0px 45px;
+    padding-bottom: 90px;
+    text-align: left;
+}
+
+main .main_box h2 ,
+main .main_box1 h2 , 
+main .main_box2 h2 {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 70px;
+    color: rgba(38, 50, 56, 1);
+}
+
+main .main_box p , 
+main .main_box1 p ,
+main .main_box2 p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(143, 149, 165, 1);
+}
+
+main .main_box p:last-of-type ,
+main .main_box1 p:last-of-type ,
+main .main_box2 p:last-of-type {
+    margin-bottom: 35px;
+}
+
+main .main_box a , 
+main .main_box1 a ,
+main .main_box2 a {
+    padding: 8px 40px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(38, 50, 56, 1);
+    border-radius: 5px;
+}
+
+main .main_box1{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    padding: 0px 20px;
+    padding-bottom: 45px;
+    text-align: left;
+}
+
+main .main_box1 img{
+    width: 302px;
+    height: 201px;
+}
+
+main .main_box2{
+    background-color: rgba(245, 245, 245, 1);
+    border-radius: 10px;
+    padding-left: 48px;
+    padding-top: 55px;
+    padding-bottom: 60px;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+}
+/* main_end */
+
+/* section_starting */
+section{
+    width: 100%;
+    margin-top: 250px;
+}
+
+h2.sm_title{
+    display: none;
+}
+
+section .about_us .desc{
+    margin-top: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(143, 149, 165, 1);
+    margin-bottom: 40px;
+}
+
+section .about_us .count h3{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 80px;
+    color: rgba(42, 50, 70, 1);
+}
+
+section .about_us .count p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(143, 149, 165, 1);
+}
+
+section .pricing{
+    margin-top: 200px;
+    text-align: center;
+}
+
+section .pricing h4{
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 48px;
+    color: rgba(38, 50, 56, 1);
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+section .pricing .pricing_desc{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(143, 149, 165, 1);
+    margin-bottom: 30px;
+}
+
+section .pricing .price{
+    padding: 0px 20px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    color: rgba(38, 50, 56, 1);
+    background-color: rgba(238, 238, 238, 1);
+    border-radius: 5px;
+    display: inline-block;
+}
+
+section .pricing .price span{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: rgba(84, 98, 105, 1);
+    margin-left: 10px;
+}
+
+section .Contact_Us{
+    margin-top: 150px;
+}
+
+section .Contact_Us p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(143, 149, 165, 1);
+}
+
+section .Contact_Us form input{
+    width: 65%;
+    padding: 18px 30px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(143, 149, 165, 1);
+    background-color: unset;
+    border: 2px solid rgba(143, 149, 165, 1);
+    border-radius: 10px;
+}
+
+section .Contact_Us form input:focus{
+    outline: none;
+}
+
+section .Contact_Us form input::placeholder{
+    color: rgba(143, 149, 165, 1);
+}
+
+section .Contact_Us form button{
+    padding: 15px 50px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+    margin-left: 12px;
+    background-color: rgba(38, 50, 56, 1);
+    border-radius: 10px;
+    border: none;
+}
+/* section_end */
+
+/* footer_starting */
+footer{
+    width: 100%;
+    margin-top: 165px;
+}
+
+footer .footer_items{
+    padding: 30px 0px;
+    border-top: 2px solid rgba(196, 196, 196, 1);
+}
+
+footer .footer_items .logo{
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 40px;
+    color: rgba(0, 0, 0, 1);
+}
+
+footer .footer_items ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+footer .footer_items ul li{
+    margin-left: 20px;
+    align-items: center;
+}
+
+footer .footer_items ul li a{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: rgba(143, 149, 165, 1);
+}
+
+footer .footer_items ul li a i{
+    margin-right: 10px;
+}
+/* footer_end */
+
+/* xxl 1600px --- cheksiz*/
+
+/* xl 1600px --- 1200px */
+
+/* lg 1199px --- 992px*/
+    @media (max-width :1200px) {
+        header .navbar .navbar-brand{
+            font-size: 30px;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
+            margin-right: 15px;
+        }
+        header .navbar .navbar-collapse button{
+            padding: 5px 5px;
+            font-size: 20px;
+            line-height: 30px;
+        }
+        main .main_box2{
+            padding-bottom: 28px;
+        }
+        section .pricing .price{
+            font-size: 20px;
+        }
+        section .Contact_Us form input{
+            width: 276px;
+        }
+    }
+/* md 991px --- 768px*/
+    @media (max-width: 992px) {
+        .navbar-nav{
+            margin-top: 30px;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-link:last-of-type ,
+        header .navbar .navbar-collapse .navbar-nav .nav-link{
+            margin-bottom: 20px;
+        }
+        header .header_title{
+            margin-top: 80px;
+        }
+        header .header_title h1{
+            font-size: 40px;
+            line-height: 60px;
+            margin-bottom: 30px;
+        }
+        header .header_title p{
+            font-size: 20px;
+            line-height: 30px;
+            margin-bottom: 30px;
+        }
+        header .header_title a{
+            border-radius: 5px;
+        }
+        main{
+            margin-top: 70px;
+        }
+        .mt-90{
+            margin-top: 50px;
+        }
+        h2.title{
+            font-size: 36px;
+            line-height: 80px;
+        }
+        main .main_box h2, main .main_box1 h2{
+            font-size: 22px;
+            line-height: 80px;
+        }
+        main .main_box2 h2{
+            font-size: 22px;
+            line-height: 50px;
+        }
+        main .main_box p, main .main_box1 p, main .main_box2 p {
+            font-size: 14px;
+            line-height: 21px;
+        }
+        main .main_box a{
+            padding: 8px 30px;
+        }
+        main .main_box1 a{
+            padding: 8px 12px;
+        }
+        main .main_box2 a{
+            padding: 8px 10px;
+        }
+        main .main_box2{
+            padding-top: 0px;
+        }
+        main .main_box2 p:last-of-type{
+            margin-bottom: 28px;
+        }
+        section{
+            margin-top: 105px;
+        }
+        section .about_us .desc{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        section .pricing{
+            margin-top: 100px;
+        }
+        .mt-90{
+            margin-top: 32px;
+        }
+        section .pricing h4{
+            font-size: 22px;
+            line-height: 34px;
+            margin-top: 20px;
+            margin-bottom: 15px;
+        }
+        section .pricing .pricing_desc{
+            font-size: 16px;
+            line-height: 24px;
+            margin-bottom: 30px;
+        }
+        section .pricing .price{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        section .pricing .price span{
+            font-size: 20px;
+        }
+        section .Contact_Us p{
+            font-size: 16px;
+            line-height: 24px;
+            margin-top: 20px;
+            margin-bottom: 25px;
+        }
+        section .Contact_Us form input{
+            width: 227px;
+            padding: 15px 30px;
+        }
+        section .Contact_Us form button{
+            font-size: 16px;
+            line-height: 24px;
+            padding: 15px 18px
+        }
+        footer{
+            margin-top: 140px;
+        }
+        footer .footer_items .logo{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        footer .footer_items ul li a{
+            font-size: 14px;
+        }
+    }
+/* sm 767px --- 576*/
+    @media (max-width: 768px) {
+    header .navbar .navbar-collapse .navbar-nav .nav-item:nth-of-type(2) .nav-link{
+        display: none;
+    }
+    header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link1{
+        display: block;
+    }
+    header .header_title h1{
+        font-size: 36px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    header .header_title p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    main{
+        margin-top: 55px;
+    }
+    h2.title{
+        font-size: 30px;
+        line-height: 80px;
+    }
+    main{
+        display: none;
+    }
+    .sm{
+        display: block;
+    }
+    .sm .main_box{
+        padding: 0px 15px;
+        padding-bottom: 36px;
+        margin-bottom: 30px;
+    }
+    .sm .main_box1{
+        padding-bottom: 36px;
+    }
+    .sm .main_box h2, .sm .main_box1 h2{
+        font-size: 18px;
+        line-height: 80px;
+    }
+    .sm .main_box p, .sm .main_box1 p, .sm .main_box2 p{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .sm .main_box1 a ,
+    .sm .main_box2 a{
+        padding: 8px 30px;
+    }
+    .sm .main_box1 p:last-of-type{
+        margin-bottom: 211px;
+    }
+    .sm .main_box2{
+        padding-left: 0;
+        padding: 0px 20px;
+        padding-bottom: 36px;
+    }
+    .sm .main_box2 p:last-of-type{
+        margin-bottom: 290px;
+    }
+    section{
+        margin-top: 85px;
+        text-align: center;
+    }
+    h2.sm_title{
+        display: block;
+    }
+    section.h2.title{
+        display: none;
+    }
+    section .about_us .desc{
+        font-size: 14px;
+        line-height: 21px;
+        margin-top: 0;
+    }
+    section .pricing{
+        text-align: center;
+    }
+    section .pricing h4{
+        font-size: 24px;
+        line-height: 28px;
+        margin-bottom: 23px;
+    }
+    section .pricing .pricing_desc{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    section .pricing .price{
+        font-size: 22px;
+        line-height: 33px;
+    }
+    section .pricing .price span{
+        font-size: 16px;
+        line-height: 24px;
+    } 
+    section .Contact_Us h2.title{
+        display: none;
+    }
+    section .Contact_Us img{
+        margin-top: 90px;
+    }
+    section .Contact_Us p{
+        font-size: 16px;
+        line-height: 24px;
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    section .Contact_Us form{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    section .Contact_Us form input{
+        width: 348px;
+        font-size: 13px;
+        line-height: 19px;
+        padding: 20px 25px;
+    }
+    section .Contact_Us form button{
+        padding: 18px 18px;
+        font-size: 16px;
+        line-height: 24px;
+        margin-left: -20px;
+    }
+    footer .footer_items{
+        text-align: center;
+    }
+    footer .footer_items .logo{
+        font-size: 25px;
+        line-height: 40px;  
+    }
+    footer .footer_items ul{
+        margin-top: 20px;
+        justify-content: space-between;
+    }
+    footer .footer_items ul li{
+        margin-left: 0;
+    }
+    }
+/* col 575px --- 320px */
+    @media (max-width: 576px) {
+        header{
+            padding-top: 25px;
+        }
+        header .navbar .navbar-brand{
+            font-size: 25px;
+        }
+        header .navbar .navbar-toggler span{
+            font-size: 20px;
+        }
+        header .header_title{
+            margin-top: 0px;
+        }
+        header .header_title h1{
+            text-align: center;
+            font-size: 24px;
+            line-height: 36px;
+            margin-bottom: 20px;
+        }
+        header .header_title p{
+            text-align: center;
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 35px;
+        }
+        header .header_title a{
+            display: block;
+            text-align: center;
+            font-size: 16px;
+            line-height: 24px;
+            padding: 18px 50px;
+        }
+        .sm{
+            margin-top: 60px;
+        }
+        h2.title{
+            font-size: 24px;
+            line-height: 80px;
+        }
+        .sm .main_box1 p:last-of-type{
+            margin-bottom: 35px;
+        }
+        .sm .main_box2 p:last-of-type{
+            margin-bottom: 35px;
+        }
+        .sm .main_box1{
+            margin-bottom: 30px;
+        }
+        section .about_us h2.title{
+            display: none;
+        }
+        section{
+            margin-top: 50px;
+        }
+        h2.sm_title{
+            font-size: 24px;
+            line-height: 80px;
+        }
+        section .about_us .desc{
+            margin-top: 42px;
+            font-size: 13px;
+            line-height: 19px;
+        }
+        section .about_us .count h3{
+            font-size: 24px;
+            line-height: 30px;
+        }
+        section .about_us .count p{
+            font-size: 15px;
+            line-height: 22px;
+            margin-bottom: 30px;
+        }
+        section .pricing{
+            margin-top: 30px;
+        }
+        section .pricing h4{
+            font-size: 18px;
+        }
+        section .pricing .pricing_desc{
+            font-size: 13px;
+            line-height: 19px;
+        }
+        section .pricing .price{
+            padding: 10px 20px;
+            font-size: 18px;
+            line-height: 24px;
+        }
+        section .pricing .price span{
+            font-size: 14px;
+            line-height: 21px;
+        }
+        section .Contact_Us{
+            margin-top: 30px;
+            text-align: center;
+        }
+        section .Contact_Us img{
+            margin-top: 40px;
+        }
+        section .Contact_Us p{
+            font-size: 14px;
+            line-height: 21px;
+            margin-bottom: 30px;
+        }
+        section .Contact_Us form{
+            flex-wrap: wrap;
+        }
+        section .Contact_Us form input{
+            margin-bottom: 18px;
+        }
+        section .Contact_Us form button{
+            width: 100%;
+            margin-left: 0;
+            font-size: 14px;
+            line-height: 21px;
+            padding: 20px 20px;
+        }
+        footer{
+            margin-top: 60px;
+        }
+        footer .footer_items{
+            padding: 20px 0px;
+        }
+        footer .footer_items ul li a{
+            font-size: 11px;
+            line-height: 16px;
+        }
+        footer .footer_items ul li a i{
+            margin-right: 0;
+        }
+    }
