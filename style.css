@@ -548,6 +548,7 @@ footer .footer_items ul li a i{
     }
     header .navbar .navbar-collapse .navbar-nav .nav-item .nav-link1{
         display: block;
+        margin-bottom: 20px;
     }
     header .header_title h1{
         font-size: 36px;
@@ -790,6 +791,7 @@ footer .footer_items ul li a i{
         }
         section .Contact_Us form input{
             margin-bottom: 18px;
+            width: -webkit-fill-available;
         }
         section .Contact_Us form button{
             width: 100%;
