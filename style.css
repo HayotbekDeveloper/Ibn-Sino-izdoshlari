@@ -41,13 +41,13 @@ h2.sm_title{
     font-weight: 600;
     font-size: 40px;
     line-height: 50px;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(42, 80, 167);
 }
 
 /* header_starting */
 header{
     width: 100%;
-    padding-top: 58px;
+    padding-top: 25px;
 }
 
 header .navbar{
@@ -63,7 +63,12 @@ header .navbar .navbar-brand{
     font-weight: 400;
     font-size: 36px;
     line-height: 54px;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(42, 80, 167);
+}
+
+header .navbar .navbar-brand img{
+    width: 350px;
+    height: 150px;
 }
 
 header .navbar .navbar-collapse{
@@ -96,17 +101,17 @@ header .navbar .navbar-collapse .navbar-nav .nav-link:last-of-type{
 
 header .navbar .navbar-collapse .navbar-nav .nav-link:hover ,
 header .navbar .navbar-collapse .navbar-nav .nav-link1:hover{
-    color: rgba(38, 50, 56, 1);
+    color: rgb(42, 80, 167);
 }
 
-header .navbar .navbar-collapse button{
+header .navbar .navbar-collapse .header_num{
     padding: 5px 10px;
     font-weight: 400;
     font-size: 24px;
     line-height: 36px;
-    color: rgba(0, 0, 0, 1);
+    color: rgb(42, 80, 167);
     background-color: unset;
-    border: 2px solid rgba(38, 50, 56, 1);
+    border: 2px solid rgb(42, 80, 167);
     border-radius: 5px;
 }
 
@@ -122,15 +127,11 @@ header .navbar .navbar-toggler span{
     font-size: 25px;
 }
 
-header .header_title{
-    margin-top: 115px;
-}
-
 header .header_title h1{
     font-weight: 500;
-    font-size: 64px;
-    line-height: 80px;
-    color: rgba(0, 0, 0, 1);
+    font-size: 45px;
+    line-height: 50px;
+    color: rgb(42, 80, 167);
     margin-bottom: 50px;
 }
 
@@ -168,7 +169,7 @@ main{
 main .main_box{
     background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
-    padding: 0px 45px;
+    padding: 55px 45px;
     padding-bottom: 45px;
     text-align: left;
 }
@@ -179,7 +180,7 @@ main .main_box2 h2 {
     font-weight: 600;
     font-size: 24px;
     line-height: 70px;
-    color: rgba(38, 50, 56, 1);
+    color: rgb(42, 80, 167);
 }
 
 main .main_box p , 
@@ -212,9 +213,13 @@ main .main_box2 a {
 main .main_box1{
     background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
-    padding: 0px 20px;
+    padding: 0px 6px;
     padding-bottom: 45px;
     text-align: left;
+}
+
+main .main_box1 .main_image{
+    text-align: center;
 }
 
 main .main_box1 img{
@@ -222,15 +227,20 @@ main .main_box1 img{
     height: 201px;
 }
 
+main .main_box1 .mkimage{
+    width: 100%;
+}
+
 main .main_box2{
     background-color: rgba(245, 245, 245, 1);
     border-radius: 10px;
-    padding-left: 48px;
-    padding-top: 55px;
-    padding-bottom: 60px;
+    padding-left: 20px;
+    padding-top: 7px;
+    padding-bottom: 25px;
     text-align: left;
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 20px;
 }
 /* main_end */
 
@@ -257,7 +267,7 @@ section .about_us .count h3{
     font-weight: 600;
     font-size: 48px;
     line-height: 80px;
-    color: rgba(42, 50, 70, 1);
+    color: rgb(42, 80, 167);
 }
 
 section .about_us .count p{
@@ -276,7 +286,7 @@ section .pricing h4{
     font-weight: 600;
     font-size: 30px;
     line-height: 48px;
-    color: rgba(38, 50, 56, 1);
+    color: rgb(42, 80, 167);
     margin-top: 30px;
     margin-bottom: 20px;
 }
