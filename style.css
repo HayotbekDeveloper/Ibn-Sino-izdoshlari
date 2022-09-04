@@ -409,7 +409,7 @@ footer .footer_items ul li a i{
 /* xl 1600px --- 1200px */
 
 /* lg 1199px --- 992px*/
-    @media (max-width :1200px) {
+    @media (max-width: 1200px) {
         header .navbar .navbar-brand{
             font-size: 30px;
         }
@@ -700,6 +700,9 @@ footer .footer_items ul li a i{
         }
         header .navbar .navbar-brand{
             font-size: 25px;
+        }
+        header .navbar .navbar-brand img{
+            width: 260px;
         }
         header .navbar .navbar-toggler span{
             font-size: 20px;
