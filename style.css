@@ -127,6 +127,10 @@ header .navbar .navbar-toggler span{
     font-size: 25px;
 }
 
+header .navbar .navbar-toggler span i{
+    color: rgb(42, 80, 167);
+}
+
 header .header_title h1{
     font-weight: 500;
     font-size: 45px;
@@ -238,8 +242,7 @@ main .main_box2{
     padding-top: 7px;
     padding-bottom: 25px;
     text-align: left;
-    display: flex;
-    flex-wrap: wrap;
+    
     margin-bottom: 20px;
 }
 /* main_end */
@@ -410,8 +413,8 @@ footer .footer_items ul li a i{
 
 /* lg 1199px --- 992px*/
     @media (max-width: 1200px) {
-        header .navbar .navbar-brand{
-            font-size: 30px;
+        header .navbar .navbar-brand img{
+            width: 250px;
         }
         header .navbar .navbar-collapse .navbar-nav .nav-item:not(header .navbar .navbar-collapse .navbar-nav .nav-item:last-of-type){
             margin-right: 15px;
@@ -420,6 +423,13 @@ footer .footer_items ul li a i{
             padding: 5px 5px;
             font-size: 20px;
             line-height: 30px;
+        }
+        header .navbar .navbar-collapse .header_num{
+            font-size: 20px;
+            line-height: 30px;
+        }
+        header .navbar .navbar-collapse .navbar-nav .nav-link, header .navbar .navbar-collapse .navbar-nav .nav-link1{
+            font-size: 18px;
         }
         main .main_box2{
             padding-bottom: 28px;
@@ -433,9 +443,6 @@ footer .footer_items ul li a i{
     }
 /* md 991px --- 768px*/
     @media (max-width: 992px) {
-        .navbar-nav{
-            margin-top: 30px;
-        }
         header .navbar .navbar-collapse .navbar-nav .nav-link:last-of-type ,
         header .navbar .navbar-collapse .navbar-nav .nav-link{
             margin-bottom: 20px;
@@ -459,6 +466,9 @@ footer .footer_items ul li a i{
         main{
             margin-top: 70px;
         }
+        main .main_box{
+            padding: 40px 18px;
+        }
         .mt-90{
             margin-top: 50px;
         }
@@ -466,35 +476,17 @@ footer .footer_items ul li a i{
             font-size: 36px;
             line-height: 50px;
         }
-        main .main_box h2, main .main_box1 h2{
-            font-size: 22px;
-            line-height: 80px;
+        .main{
+            display: none;
         }
-        main .main_box2 h2{
-            font-size: 22px;
-            line-height: 50px;
+        .sm{
+            display: block;
         }
-        main .main_box p, main .main_box1 p, main .main_box2 p {
-            font-size: 14px;
-            line-height: 21px;
-        }
-        main .main_box a{
-            padding: 8px 30px;
-        }
-        main .main_box1 a{
-            padding: 8px 12px;
-        }
-        main .main_box2 a{
-            padding: 8px 10px;
-        }
-        main .main_box2{
-            padding-top: 0px;
-        }
-        main .main_box2 p:last-of-type{
-            margin-bottom: 28px;
+        .sm .main_box1{
+            margin-bottom: 40px;
         }
         section{
-            margin-top: 105px;
+            margin-top: 50px;
         }
         section .about_us .desc{
             font-size: 16px;
@@ -502,8 +494,19 @@ footer .footer_items ul li a i{
             margin-top: 15px;
             margin-bottom: 20px;
         }
+        section .about_us .sm_title{
+            display: block;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        section .about_us h2.title{
+            display: none;
+        }
         section .pricing{
-            margin-top: 100px;
+            margin-top: 50px;
+        }
+        section .pricing .pricing_img{
+            margin-top: 20px;
         }
         .mt-90{
             margin-top: 32px;
@@ -526,6 +529,17 @@ footer .footer_items ul li a i{
         section .pricing .price span{
             font-size: 20px;
         }
+        section .Contact_Us{
+            margin-top: 50px;
+            text-align: center;
+        }
+        section .Contact_Us .sm_title{
+            display: block;
+            margin-bottom: 30px;
+        }
+        section .Contact_Us h2.title{
+            display: none;
+        }
         section .Contact_Us p{
             font-size: 16px;
             line-height: 24px;
@@ -533,16 +547,16 @@ footer .footer_items ul li a i{
             margin-bottom: 25px;
         }
         section .Contact_Us form input{
-            width: 227px;
+            width: 400px;
             padding: 15px 30px;
         }
         section .Contact_Us form button{
-            font-size: 16px;
+            font-size: 20px;
             line-height: 24px;
             padding: 15px 18px
         }
         footer{
-            margin-top: 140px;
+            margin-top: 50px;
         }
         footer .footer_items .logo{
             font-size: 20px;
@@ -561,6 +575,9 @@ footer .footer_items ul li a i{
         display: block;
         margin-bottom: 20px;
     }
+    header .header_title{
+        margin-top: 20px;
+    }
     header .header_title h1{
         font-size: 36px;
         line-height: 45px;
@@ -569,6 +586,11 @@ footer .footer_items ul li a i{
     header .header_title p{
         font-size: 16px;
         line-height: 24px;
+    }
+    header .header_title a{
+        display: block;
+        text-align: center;
+        font-size: 25px;
     }
     main{
         margin-top: 55px;
@@ -599,23 +621,20 @@ footer .footer_items ul li a i{
         font-size: 12px;
         line-height: 18px;
     }
+    .sm .main_box a , 
     .sm .main_box1 a ,
-    .sm .main_box2 a{
+    .sm .main_box2 .more{
         padding: 8px 30px;
-    }
-    .sm .main_box1 p:last-of-type{
-        margin-bottom: 211px;
+        display: block !important;
+        text-align: center;
     }
     .sm .main_box2{
         padding-left: 0;
         padding: 0px 20px;
         padding-bottom: 36px;
     }
-    .sm .main_box2 p:last-of-type{
-        margin-bottom: 290px;
-    }
     section{
-        margin-top: 85px;
+        margin-top: 30px;
         text-align: center;
     }
     h2.sm_title{
@@ -703,6 +722,7 @@ footer .footer_items ul li a i{
         }
         header .navbar .navbar-brand img{
             width: 260px;
+            height: 70px;
         }
         header .navbar .navbar-toggler span{
             font-size: 20px;
@@ -730,7 +750,7 @@ footer .footer_items ul li a i{
             padding: 18px 50px;
         }
         .sm{
-            margin-top: 60px;
+            margin-top: 30px;
         }
         h2.title{
             font-size: 24px;
@@ -748,12 +768,12 @@ footer .footer_items ul li a i{
         section .about_us h2.title{
             display: none;
         }
-        section{
-            margin-top: 50px;
-        }
         h2.sm_title{
             font-size: 24px;
             line-height: 50px;
+        }
+        section{
+            margin-top: 0;
         }
         section .about_us .desc{
             margin-top: 42px;
@@ -789,7 +809,7 @@ footer .footer_items ul li a i{
             line-height: 21px;
         }
         section .Contact_Us{
-            margin-top: 30px;
+            margin-top: 0px;
             text-align: center;
         }
         section .Contact_Us img{
